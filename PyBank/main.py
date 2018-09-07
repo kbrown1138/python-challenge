@@ -2,7 +2,6 @@ import os
 
 import csv
 
-import subprocess
 
 budget_csv = os.path.join('.', '03-Python_Homework_Instructions_PyBank_Resources_budget_data.csv')
 
@@ -60,6 +59,7 @@ print("Average Change: " + "$" + str(round(average_change, 2)))
 print("Greatest Increase in Revenue:", max_change_month,"($",max_change,")")
 
 print("Greatest Decrease in Revenue:", min_change_month,"($",min_change,")")
+
 
 output_file = os.path.join('output.txt')
 
