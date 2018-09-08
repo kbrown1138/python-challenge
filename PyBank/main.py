@@ -42,9 +42,9 @@ with open(budget_csv, newline='') as csvfile:
 
 		min_change = min(changes)
 
-		max_change_month = str(months[changes.index(max(changes))])
+		max_change_month = str(months[changes.index(max(changes)) + 1])
 
-		min_change_month = str(months[changes.index(min(changes))])
+		min_change_month = str(months[changes.index(min(changes)) + 1])
 
 print("Financial Analysis")
 
