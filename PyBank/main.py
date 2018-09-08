@@ -101,10 +101,10 @@ with open(output_file, "w") as txt_file:
 
 	txt_file.write("\n")
 
-	txt_file.write("Greatest Increase in Revenue:" + max_change_month + "($" + str(max_change) + ")")
+	txt_file.write("Greatest Increase in Revenue: " + max_change_month + " ($" + str(max_change) + ")")
 
 	txt_file.write("\n")
 
-	txt_file.write("Greatest Decrease in Revenue:" + min_change_month + "($" + str(min_change) + ")")
+	txt_file.write("Greatest Decrease in Revenue: " + min_change_month + " ($" + str(min_change) + ")")
 
 
